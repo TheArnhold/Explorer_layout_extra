@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;/* 10px  */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 6.4rem ;
+    text-align: center;
+    background: #ECEFF2;
+}
+
+main {
+    justify-content: center;
+    max-width: 60rem ;
+    margin: auto;
+}
+
+div {
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+}
+
+h1 span{
+    font-weight: 700;
+    color: #EE24FF;
+}
+
+p{
+    color: #828282;
+    padding-bottom: 3.2rem;
+}
+
+#flutuar {
+    color: #828282;
+    font-weight: 700;
+}
+
+p span {
+    color: #3F3D56;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 4.2rem;
+    justify-content: center;
+    list-style: none;
+    color: #3F3D56;
+    font-weight: 700;
+    padding: 1.6rem 0 3.2rem;
+
+}
+ul li a{
+    text-decoration: none;
+
+}
+
+#wave {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ECEFF2;
+    width: 100%;
+    z-index: -1;
+}
